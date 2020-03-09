@@ -1,5 +1,28 @@
 # Write your code here.
-katz_deli = []
+katz_del = []
+
+
+$num = 0
+def take_a_number(array)
+  $num += 1
+  array << $num
+  puts "Welcome, you are #{$num} in line."
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def line(array)
   if array.length == 0
